@@ -1,0 +1,62 @@
+.navbar{
+  background-color: #FFF;
+  color: #0d4b27;
+
+  .title{
+    font-family: 'Gelasio', serif;
+    font-weight: bold;
+    letter-spacing: 1.001rem;
+  }
+
+  .btn{
+    background-color: #0d4b27;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 10px;   
+    font-weight: bold;
+  }
+  
+  .nav-item{
+    &:hover{
+      text-decoration-line: none;
+      text-decoration: none;
+    }
+  }
+
+  .nav-link{
+    font-weight: bold;
+  }
+
+  &:hover{
+    color: #0d4b27;
+    background-color: #FFF;
+  }
+
+  .dropdown-menu{
+    background-color: #FFF;
+    color: #000;
+
+    .dropdown-item{
+      color: #000;
+      font-weight: bold;
+
+      &:hover{
+        background-color: #0d4b27;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+@media(max-width:900px){
+
+  .navbar{
+    background-color: #FFF;
+    color: #0d4b27;
+  }
+
+  .btn{
+    margin: auto;
+  }
+
+}
